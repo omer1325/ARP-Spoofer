@@ -15,6 +15,9 @@
 
 <ul>
   <li>
+    echo 1 > /proc/sys/net/ipv4/ip_forward
+  </li>
+  <li>
     python3 arp_spoof.py -t [ Target IP ] -r [ Router IP ]
   </li>
   <li>
